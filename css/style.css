@@ -1,0 +1,140 @@
+.jumbotron2{
+   background-image: url('../LP3/header.jpg');
+   /*background-size: contain;*/
+   background-repeat: no-repeat;
+   background-position: bottom center;
+   background-size: cover;
+   width: 100%;
+
+
+}
+
+.jumbotron{
+   background-image: url('../LP3/man_with_shield.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+
+}
+
+.jumbotron3{
+   background-image: url('../LP3/protect_yourself.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   margin-bottom: -20px;
+    height: 324px;
+
+}
+
+.jumbotron4{
+   background-image: url('../LP3/footer.jpg');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+
+}
+
+.jumbotron4 > p{
+   margin-top: -9px;
+   padding-top: 20px;
+}
+
+
+
+#middle{
+   position: relative;
+   top: 64px;
+   margin-bottom: 55px;
+
+
+}
+
+#lastLi{
+   margin-bottom: 20px;
+}
+
+#text{
+   top: 50px;
+   /*color: green;*/
+}
+
+#logo{
+   z-index: 100;
+   position: absolute;
+   width: 200px;
+   height: auto;
+   top: 40px;
+}
+
+#button1{
+   background: #1d7bdf !important;
+   margin-bottom: 200px;
+}
+
+#top50{
+   top: 50px;
+   position: relative;
+   color: #1d7bdf !important;
+   margin-bottom: 40px;
+}
+
+li{
+   list-style: none;
+}
+
+.marginBotom20{
+   margin-bottom: 20px;
+}
+
+.marginTop20{
+   margin-top: 20px;
+}
+
+.marginTop40{
+   margin-top: 40px;
+}
+.colorBlue{
+   color:  #1d7bdf;
+}
+
+.list > ul{
+    list-style: none;
+}
+.list > ul > li{
+    display: inline;
+
+}
+
+
+}
+
+@media only screen and (max-width:990px){
+   #control{
+      height: 500px !important;
+   }
+ }
+
+
+ @media only screen and (min-width:991px){
+    #control{
+      height: 255px !important;
+   }
+
+  }
+
+
+  @media only screen and (min-width:1200px){
+     #control{
+      height: 310px !important;
+    }
+
+
+
+  }
